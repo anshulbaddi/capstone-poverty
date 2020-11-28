@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact and donate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="h1donate"> donate </h1>
+
+
+        <ul>
+            <li><a href="thx.html"> Thank You</a></li>
+            <li><a href="continents.html"> Continents</a></li>
+            <li><a href="contactanddonate.html">Contact and Donate</a></li>
+            <li><a href="statistics.html">Statistics</a></li>
+            <li><a class="active" href="index.html">Home</a></li>
+
+        </ul>
+    </header>
+
+
+
+
+    <p class="pdonate">amount of donation:</p>
+    <input type="text" id="notimport"></input> <br> <br>
+
+    <!-- <p class="pdonate">currency of donation:</p>
+    <input type="text" id="txtcurrency"></input> <br><br> -->
+
+    <input type="button" id="buttondonate" value="yes, this is how much i want to donate"
+        onclick="check();"></input><br>
+    <h1 class="h1donate"> contact us </h1>
+    <p class="pdonate">
+        you can contact us at povertyhelp@gmail.com or (480)316-7813 if you have any questions or ect
+    </p>
+
+</body>
+
+</html>
+<script>
+    function check() {
+        currencies = ["USD", "EUR", "INR", "JPY", "GBP"];
+        var currency = prompt("please enter your currency in symbol notation")
+        for (i = 0; i <= currencies.length; i++) {
+            if (currency === currencies[0]) {
+                alert("thank you, your donation has been sent");
+                break;
+
+            } else if (currency === currencies[1]) {
+                alert("thank you, your donation has been sent");
+                break;
+
+            } else if (currency === currencies[2]) {
+                alert("thank you, your donation has been sent");
+                break;
+
+            } else if (currency === currencies[3]) {
+                alert("thank you, your donation has been sent");
+                break;
+
+            } else if (currency === currencies[4]) {
+                alert("thank you, your donation has been sent");
+                break;
+
+            } else if (currency !== currencies[i]) {
+                alert("sorry the currency you put is not valid; please try another one");
+                break;
+            } else {
+                alert("sorry the currency you put is not valid; please try another one");
+                break;
+            }
+        }
+    }
+</script>

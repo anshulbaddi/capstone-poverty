@@ -1,0 +1,233 @@
+#nav {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+
+
+
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+body {
+
+    background-color: black;
+    background-image: url("https://i.pinimg.com/236x/b0/7f/c2/b07fc2be9f83e519a803619591bfa1b2--elie-wiesel-as-time-goes-by.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#logo {
+    height: 130px;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#h1main {
+    color: #4CAF50;
+    font-size: 100px;
+
+}
+
+#mainpoverty {
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#h1thx {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+footer {
+    color: white;
+    text-align: right;
+    font-size: 50px;
+}
+
+#pthx {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+#imgthx {
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#h1stat {
+    color: #4CAF50;
+    font-size: 100px;
+    text-align: center;
+}
+
+#buttonstat {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#resultstat {
+    color: white;
+}
+
+#olstat {
+    color: white;
+    font-size: 20px;
+}
+
+.pstat {
+    color: white;
+    font-size: 20px;
+}
+
+#imgworld {
+
+    height: 310px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 43%;
+    border-radius: 10%;
+
+}
+
+#h1cont {
+    color: #4CAF50;
+    font-size: 90px;
+    text-align: center;
+
+
+}
+
+.pcont {
+    color: white;
+    font-size: 30px;
+}
+
+.buttoncont {
+    display: block;
+    width: 20%;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+#txtcont {
+    height: 30px;
+    width: 35%;
+}
+
+#buttoncont {
+    height: 35px;
+    width: 35%;
+    color: #4CAF50;
+}
+
+#resultcont {
+    color: white;
+}
+
+#cont {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: 0px;
+
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+
+.h1donate {
+    color: white;
+    font-size: 70px;
+}
+
+#buttondonate {
+    display: block;
+    width: 30%;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.pdonate {
+    font-size: 30px;
+    color: white;
+}
+
+#notimport {
+    height: 30px;
+    width: 29%;
+}
+
+#imgmain {
+    border-radius: 10%;
+    height: 350px;
+}
+
+#imgmain2 {
+    border-radius: 10%;
+    height: 350px;
+}

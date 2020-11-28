@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>continents</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <h1 id="h1cont">continents of povery</h1>
+
+        <ul>
+            <li><a href="thx.html"> Thank You</a></li>
+            <li><a href="continents.html"> Continents</a></li>
+            <li><a href="contactanddonate.html">Contact and Donate</a></li>
+            <li><a href="statistics.html">Statistics</a></li>
+            <li><a class="active" href="index.html">Home</a></li>
+
+        </ul>
+    </header>
+
+    <div id="resultcont"></div>
+
+
+
+
+    <p class="pcont"> pick one continent to know facts about:</p>
+
+    <input type="button" class="buttoncont" value="asia" onclick="asia();"></input> <br>
+    <input type="button" class="buttoncont" value="america" onclick="america();"></input> <br>
+    <input type="button" class="buttoncont" value="africa" onclick="africa();"></input> <br>
+    <div id="cont"></div>
+
+    <img id="imgworld"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Percentage_population_living_on_less_than_1_dollar_day_2007-2008.png/1200px-Percentage_population_living_on_less_than_1_dollar_day_2007-2008.png">
+
+
+</body>
+
+</html>
+
+<script>
+    function asia() {
+        document.getElementById("cont").innerHTML =
+            "causes of poverty in asia: Various factors like urbanization, population growth, a decrease in agricultural land and poor policy making are responsible for the increasing food insecurity in Asia. Lack of proper education also causes poverty. <br> ";
+
+
+
+    }
+
+    function america() {
+        document.getElementById("cont").innerHTML =
+            "poverty in america: The official poverty rate in 2019 was 10.5 percent, down 1.3 percentage points from 11.8 percent in 2018. This is the fifth consecutive annual decline in poverty. Since 2014, the poverty rate has fallen 4.3 percentage points, from 14.8 percent to 10.5 percent (Figure 7 and Table B-5) <br>";
+
+    }
+
+    function africa() {
+        document.getElementById("cont").innerHTML =
+            "poverty in africa(very sad): One in three Africans live below the global poverty line. They make up 70 percent of the global poor, and their numbers are rising. Despite the overwhelming number of extremely poor people in Africa, the causes of poverty on the continent are no different than the causes of poverty around the world.<br>";
+
+    }
+</script>
